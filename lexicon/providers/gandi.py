@@ -80,7 +80,7 @@ class Provider(BaseProvider):
                 self._full_name,
             )
         else:
-            self.api_endpoint = "https://dns.api.gandi.net/api/v5"
+            self.api_endpoint = "https://api.gandi.net/v5/livedns"
 
     def _authenticate(self):
         if self.protocol == "rpc":
